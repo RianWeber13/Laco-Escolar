@@ -1,0 +1,44 @@
+/* styles/inicio.module.css */
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.menu {
+  width: 250px;
+  background-color: #333;
+  padding: 20px;
+  color: white;
+  height: 100%;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menuItem {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  margin: 10px 0;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.menuItem:hover {
+  background-color: #555;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  font-size: 20px;
+  background-color: white;
+  overflow-y: auto;
+}
